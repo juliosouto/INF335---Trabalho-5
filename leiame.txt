@@ -1,0 +1,26 @@
+# INF335-2022: Trabalho 4: Sistemas de build (maven) (turma 2022)
+
+
+## Equipe
+
+* Caio Augusto Cunha Volpato / Matrícula: ex145119 / RG: 37.316.625-4
+* Julio Cesar Souto Filho / Matrícula: ex161655 /  RG: 48.614.253-X
+
+## Objetivo
+
+Este trabalho tem como objetivo desenvolver habilidades de uso da ferramenta Maven para automação de build. Este trabalho compõe a avaliação da disciplina INF335.
+
+## Resultados
+
+Após criar um projeto maven utilizando o arquetipo maven-archetype-simple incluimos o codigo e testes feitos no trabalho 2.
+
+Entretanto tivemos problemas na build do mesmo, pesquisando percebemos que os testes foram criados utilizando a versão 5 do junit, porém o arquetipo inclui apenas a versão 4.
+
+Alteramos o pom.xml corrigindo a dependencia do junit e obtivemos sucesso na compilação.
+
+## Arquivos:
+
+* logs.txt: logs do mvn install.
+* src/ pasta com os codigos e testes (retirados do trabalho 2).
+* trab4-1.0.jar arquivo jar gerado pelo maven.
+
